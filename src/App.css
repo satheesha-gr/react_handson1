@@ -1,0 +1,71 @@
+body {
+  width: 99vw;
+  height: 100vh;
+  background: linear-gradient(
+      180deg,
+      rgba(90, 185, 196, 1) 4%,
+      rgba(188, 53, 53, 0.47429394120929624) 57%,
+      rgba(180, 17, 17, 0.11855164429052867) 80%
+  );
+}
+
+.App {
+  text-align: center;
+}
+
+.heading {
+  text-shadow: 3px 3px 3px aqua;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.btn-func {
+  background-color: rgb(197, 220, 240);
+  margin-right: 30px;
+}
+
+.btn-cls {
+  background-color: aqua;
+  margin-left: 30px;
+}
+
+.component-box {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: auto;
+  margin-top: 30px;
+}
+
+.function-component,
+.class-component {
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+}
+
+.function-component {
+  background-color: aqua;
+}
+
+.class-component {
+  background-color: rgb(194, 111, 194);
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+}
